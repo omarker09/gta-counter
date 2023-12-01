@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.main {
+  background-image: url('../../public/GARanHiXUAA9Xbx.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
