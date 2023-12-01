@@ -49,13 +49,13 @@ function Timer({ datetime, rockLinke }) {
     return (
         <div className=' flex flex-col h-screen w-screen items-center relative justify-center'>
 
-            <div className={isfinal === true ? "hidden" : ' flex items-center gap-5 flex-col justify-center'}>
-                <h1 className=' text-6xl   top-3 font-black text-white'>Grand Theft Auto <span className=' text-pink-600'></span></h1>
+            <div className={isfinal === true ? "hidden" : ' flex items-center text-center gap-5 flex-col justify-center'}>
+                <h1 className=' text-3xl sm:text-6xl text-center top-3 font-black text-white'>Grand Theft Auto <span className=' text-pink-600'></span></h1>
                 <h1 className=' text-white text-2xl duration-150 font-bold max-w-xs'>{dayz}d  {hourz}h  {minutesz}m {secondsz}s</h1>
             </div>
             <div className={isfinal === true ? " flex items-center w-full relative h-full justify-center" : "hidden"}>
                 <div className=' flex items-center h-screen w-screen relative  justify-center flex-col'>
-                    <h1 className=' text-6xl   top-3 font-black text-white'>Grand Theft Auto<span className=' text-pink-600'>VI</span></h1>
+                    <h1 className='text-3xl sm:text-6xl top-3 font-black text-white'>Grand Theft Auto<span className=' text-pink-600'>VI</span></h1>
                     <Lottie height={100} width={100} className=' absolute top-4 right-2 ' animationData={CongratsAnimation2} loop={true} />
                     <Lottie height={100} width={100} className=' absolute top-4 left-2 ' animationData={CongratsAnimation2} loop={true} />
                     <Lottie height={100} width={100} className='  ' animationData={CongratsAnimation} loop={true} />
